@@ -23,7 +23,9 @@
     "leecher"
   ],
   "dependencies": {
-    "chokidar": "~1.0.0-rc5"
+    "chokidar": "~1.0.0-rc5",
+    "webtorrent": "~0.30.0",
+    "mkdirp": "~0.5.0"
   },
   "devDependencies": {},
   "license": "MIT"
