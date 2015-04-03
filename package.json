@@ -1,0 +1,30 @@
+{
+  "name": "plex-torrent-leecher",
+  "version": "0.0.1",
+  "description": "A Bittorrent leecher in Node.js. Watches a directory for .torrent files and moves them to plex media folder when finished ",
+  "author": "Bert Wijnants <bert.wijnants@gmail.com>",
+  "contributors": [
+    {
+      "name": "Bert Wijnants",
+      "email": "bert.wijnants@gmail.com"
+    }
+  ],
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wijnanb/plex-torrent-leecher"
+  },
+  "bugs": {
+    "url": "https://github.com/wijnanb/plex-torrent-leecher/issues"
+  },
+  "keywords": [
+    "plex",
+    "Bittorrent",
+    "leecher"
+  ],
+  "dependencies": {
+    "chokidar": "~1.0.0-rc5"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
